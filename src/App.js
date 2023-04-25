@@ -1,25 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
 
+import { useState } from 'react';
+import './App.css';
+import { About,Skills,Projects,PersonalDetails} from './component';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const [state,setState] = useState(0)
+  const Header = ()=>{
+      return (
+        <div className='button'>
+          <button onClick={(evt)=>{setState(0);evt.preventDefault();}}>About</button>
+          <button onClick={(evt)=>{setState(1);evt.preventDefault();}}>Skills</button>
+          <button onClick={(evt)=>{setState(2);evt.preventDefault();}}>Projects</button>
+        </div>
+      )
+  }
+  if(state===0){
+    return (
+      <div className='rootDiv'>
+      <div className="contact-div">
+      <PersonalDetails/>
+      </div>
+      <div  className="page-div">
+      <Header/>
+      <About/>
     </div>
-  );
+      </div>
+    )
+  }
+  else if(state === 1){
+    return (
+      <div className='rootDiv'>
+      <div className="contact-div">
+      <PersonalDetails/>
+      </div> 
+      <div className="page-div">
+      <Header/>
+      <Skills/>
+      </div>
+      
+      </div>
+    )
+  }
+  else{
+    return (
+      <div className='rootDiv'>
+        <div className="contact-div">
+      <PersonalDetails/>
+        </div>
+      <div className="page-div">
+      <Header/><Projects/>
+      </div>
+      
+      </div>
+    )
+  }
+
 }
 
 export default App;
