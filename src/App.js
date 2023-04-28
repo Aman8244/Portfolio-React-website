@@ -6,7 +6,7 @@ function App() {
   const [state,setState] = useState(0)
   const Header = ()=>{
       return (
-        <div className='button'>
+        <div className='button Header'>
           <button onClick={(evt)=>{setState(0);evt.preventDefault();}}>About</button>
           <button onClick={(evt)=>{setState(1);evt.preventDefault();}}>Skills</button>
           <button onClick={(evt)=>{setState(2);evt.preventDefault();}}>Projects</button>
