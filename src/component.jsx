@@ -56,12 +56,12 @@ const About = ()=>{
             </div>
            </div>
           <ul>
-            {/* <li>
+            <li>
             <h3 className="school-name">Jaipur National University</h3>
            <span className="year">2021-2025</span>
               <br/><span>Bachelor In Technology (CSE)</span>
            
-            </li> */}
+            </li>
             <li>
             <h3 className="school-name">Devasthaly Vidyapeeth</h3>
               <span className="year">2018-2020</span>
