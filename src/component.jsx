@@ -107,17 +107,21 @@ const About = ()=>{
       <div className="projects">
         <h1>Projects</h1>
         <HR/>
+        <a href="https://notes-keeper-app-amansingh.netlify.app/" className="project-name">
+        <div className="project-div"><img className="project-image" src={require("./images/notes.jpg")} alt="project"/><br/><h3 className="project-description">Notes Keeper</h3>
+        <p>Frontend Development</p></div>
+        </a>
         <a href="https://amansingh-todolist.netlify.app/" className="project-name">
         <div className="project-div"><img className="project-image" src={require("./images/todolist.png")} alt="project"/><br/><h3 className="project-description">To Do List</h3>
-        <p>Web Development</p></div>
+        <p>Frontend Development</p></div>
         </a>
         <a href ="https://tictactoe-amansingh.netlify.app/" className="project-name">
         <div className="project-div"><img className="project-image" src={require("./images/Tic-Tac-Toe-Game.png")} alt="project"/><br/><h3 className="project-description">Tic Tac Toe</h3>
-        <p>Web Development</p></div>
+        <p>Frontend Development</p></div>
         </a>
         <a href="https://github.com/Aman8244/Weather-App" className="project-name">
         <div className="project-div"><img className="project-image" src={require("./images/weather.webp")} alt="project"/><br/><h3 className="project-description">Weather App</h3>
-        <p>Web Development</p></div>
+        <p>Backend Development</p></div>
         </a>
       </div>
     )
