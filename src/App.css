@@ -472,7 +472,7 @@
     height: max-content;
     padding-left: 3%;
     padding-bottom: 3%;
-    width: 86%;
+    width: 85%;
     padding-top: 0;
     margin-left: 5%;
     margin-right: 7%;
@@ -726,7 +726,7 @@
   }
 
   .project-div {
-    width: 40%;
+    width: 80%;
     text-align: center;
     margin: 2%;
     display: inline-block;
