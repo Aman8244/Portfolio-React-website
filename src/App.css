@@ -472,10 +472,10 @@
     height: max-content;
     padding-left: 3%;
     padding-bottom: 3%;
-    width: 80%;
+    width: 86%;
     padding-top: 0;
-    margin-left: 6.5%;
-    margin-right: 5%;
+    margin-left: 5%;
+    margin-right: 7%;
     margin-top: 5%;
     margin-bottom: 5%;
     border-radius: 1.5rem;
@@ -556,7 +556,7 @@
   }
 
   button:hover {
-    color: goldenrod;
+    color: var(--bg-gradient-onyx);
   }
 
   .page-div {
