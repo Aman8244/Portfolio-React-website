@@ -31,7 +31,7 @@ const PersonalDetails = () => {
   )
 }
 const About = () => {
-  const sem = "IV";
+  const sem = "5";
   return (
     <div className="about-page">
       <h1>About Me</h1>
