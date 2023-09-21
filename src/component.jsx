@@ -36,8 +36,8 @@ const About = () => {
     <div className="about-page">
       <h1>About Me</h1>
       <HR />
-      <p>Hello! I'm Aman Singh, a passionate and ambitious MERN Stack Developer currently in my {sem}<sup>th</sup>
-        semester of studies. I have a strong foundation in web development, with a focus on creating dynamic
+      <p>Hello! I'm Aman Singh, a passionate and ambitious MERN Stack Developer currently in my {sem}<sup>th</sup> semester
+        of studies. I have a strong foundation in web development, with a focus on creating dynamic
         and user-friendly web applications using the MERN (MongoDB, Express.js, React, Node.js) stack.
         I'm excited to share my journey and the projects I've worked on so far.
       </p>
