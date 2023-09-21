@@ -1,4 +1,4 @@
-@media screen and (min-width:1001px) {
+@media screen and (min-width:901px) {
   .myPicture {
     height: 14rem;
     width: 15rem;
@@ -108,7 +108,7 @@
   }
 
   button:hover {
-    color: goldenrod;
+    color: var(--bg-gradient-onyx);
   }
 
   .page-div {
@@ -354,7 +354,7 @@
   }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:900px) {
   html {
     background-color: rgb(0, 0, 0);
     font-family: var(--ff-poppins);
